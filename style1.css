@@ -9,9 +9,18 @@ body {
     background-repeat: no-repeat;
 }
 
+p {
+    color:  #ff9ec3;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
 header {
     font-style: oblique;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 18px;
     height: 100px;
     font-size: 20px;
@@ -93,8 +102,6 @@ img:hover {
     box-shadow: 1px 2px 10px rgba(49, 204, 255);
     transform: translateY(3px);
 }
-
-
 
 .photo img:hover {
     transform: scale(1.05);
