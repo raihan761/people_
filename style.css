@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+    background: linear-gradient(to right, #B6B6B6, #291A40);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 }
  
 .kims {
-    background: rgb(255, 255, 255);
+    background: #E2CDD5;
     border: 20px;
     border-radius: 20px;
     display: inline-block;
@@ -27,7 +27,7 @@ body {
     font-style: oblique;
     font-weight: bold;
     filter: blur(1px);
-    box-shadow: 4px 4px 5px rgb(134, 23, 224);
+    box-shadow: 4px 4px 5px rgb(153, 68, 223);
     transition: all 0.3s ease;
 
 }
@@ -36,9 +36,12 @@ body {
     cursor: pointer;
     filter: blur(0);
     transform: translateY(3px);
+    box-shadow: 3px 5px 100px rgb(175, 13, 154);
 }
 
 .kims :active {
+    transition: all 0.3s;
     filter: none;
-}
+  }
+
 
